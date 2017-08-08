@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ScrollSpy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative;
+  }
+  #section1 {padding-top:50px;color: #fff; background-color: teal;}
+  #section2 {padding-top:50px;color: #fff; background-color: #222222;}
+  #section3 {padding-top:50px;color: #fff; background-color: teal;}
+  #section4 {padding-top:50px;color: #fff; background-color: #222222;}
+ i{
+  color:teal;
+  font-size: 20px;
+}
+.glyphicon:before {
+  margin-right: 25px;
+}
+a{
+  color:teal;
+}
+a:hover{
+  color:white;
+}
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/index.php">Mark Aguilar</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+<li><a href="#section1">Profile</a></li>
+<li><a href="#section2">Projects</a></li>
+<li><a href="#section3">Skills</a></li>
+<li><a href="#section4">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="section1" class = "container-fluid">
+      <h1>Profile</h1> <hr>
+<h2> About me </h2>
+<p> I am a self-taught web developer. I am proficient with front-end techniques and have experience with back-end development. I enjoy creating something out of nothing and bringing it to life. </p>
+<h2>Details</h2>
+<p class = "category">Name:</p> <p>Mark Aguilar</p>
+<p class = "category">Age:</p> <p>23 years</p>
+<p class = "category">Location:</p> <p>Houston, Texas</p>
+</div>
+
+<div id="section2" class="container-fluid">
+  <h1>Projects</h1> <hr>
+  <p>Calulator</p>
+<p>RPS</p>
+<p>PHP</p>
+<p>Scroll Spy</p>
+</div>
+
+<div id="section3" class="container-fluid">
+  <h1>Skills</h1> <hr>
+    <p class = "category">Languages:</p><p>C++, CSS, HTML, JavaScript, mySQL, PHP</p>
+    <p class = "category">Programs:</p><p> Filezilla, Github, Kleopatra, VMware </p>
+    <p class = "category">Operating Systems:</p><p> Mac, Ubuntu, Windows</p>
+</div>
+
+<div id="section4" class="container-fluid">
+  <h1>Contact</h1>
+  <hr>
+<p><i class="glyphicon glyphicon-map-marker"></i>Houston, TX</p>
+<p><i class="glyphicon glyphicon-phone"></i>832-229-0061</p>
+  <p><i class="glyphicon glyphicon-file"></i><a href  = "resume.html">View Resume</a></p>
+  <p><i class="glyphicon glyphicon-envelope"></i><a href  = "https://markaguilar.cf">aguilarmark19@gmail.com</a></p>
+<br>
+  <a href = "https://github.com/crayarc"><i class="fa fa-github" style="font-size:50px;"> </i></a>
+  <a href = "https://twitter.com/CodeMoreSci"><i class="fa fa-twitter-square" style="font-size:50px;"> </i></a>
+
+</div>
+
+
+</body>
+</html>
