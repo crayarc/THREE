@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative;
+  }
+  ul.nav-pills {
+      top: 20px;
+      position: fixed;
+  }
+  div.col-sm-9 div {
+      height: 600px;
+      font-size: 28px;
+  }
+  #section1 {color: #fff; background-color: teal;}
+  #section2 {color: #fff; background-color: #222222;}
+  #section3 {color: #fff; background-color: teal;}
+  #section4 {color: #fff; background-color: #222222;}
+   i{
+  color:teal;
+  font-size: 20px;
+}
+.glyphicon:before {
+  margin-right: 25px;
+}
+a{
+  color:teal;
+}
+a:hover{
+  color:white;
+}
+
+  @media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section41, #section42  {
+        margin-left: 150px;
+    }
+  }
+  </style>
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-sm-9">
+      <div id="section1">
+
+        <h1>Profile</h1> <hr>
+<h2> About me </h2>
+<p> I am a self-taught web developer. I am proficient with front-end techniques and have experience with back-end development. I enjoy creating something out of nothing and bringing it to life. </p>
+
+<h2>Details</h2>
+<p class = "category">Name:</p> <p>Mark Aguilar</p>
+<p class = "category">Age:</p> <p>23 years</p>
+<p class = "category">Location:</p> <p>Houston, Texas</p>
+      </div>
+
+      <div id="section2">
+   <h1>Projects</h1> <hr>
+  <p>Calulator</p>
+<p>RPS</p>
+<p>PHP</p>
+<p>Scroll Spy</p>
+      </div>
+
+      <div id="section3">
+          <h1>Skills</h1> <hr>
+    <p class = "category">Languages:</p><p>C++, CSS, HTML, JavaScript, mySQL, PHP</p>
+    <p class = "category">Programs:</p><p> Filezilla, Github, Kleopatra, VMware </p>
+    <p class = "category">Operating Systems:</p><p> Mac, Ubuntu, Windows</p>
+      </div>
+
+      <div id="section4">
+        <h1>Contact</h1>
+  <hr>
+<p><i class="glyphicon glyphicon-map-marker"></i>Houston, TX</p>
+<p><i class="glyphicon glyphicon-phone"></i>832-229-0061</p>
+  <p><i class="glyphicon glyphicon-file"></i><a href  = "resume.html">View Resume</a></p>
+  <p><i class="glyphicon glyphicon-envelope"></i><a href  = "https://markaguilar.cf">aguilarmark19@gmail.com</a></p>
+<br>
+  <a href = "https://github.com/crayarc"><i class="fa fa-github" style="font-size:50px;"> </i></a>
+  <a href = "https://twitter.com/CodeMoreSci"><i class="fa fa-twitter-square" style="font-size:50px;"> </i></a>
+      </div>
+
+    </div>
+
+    <nav class="col-sm-3" id="myScrollspy">
+      <ul class="nav nav-pills nav-stacked">
+        <li><a href="#section1">Profile</a></li>
+        <li><a href="#section2">Projects</a></li>
+        <li><a href="#section3">Skills</a></li>
+        <li><a href="#section4">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+</body>
